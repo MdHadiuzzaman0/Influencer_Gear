@@ -29,12 +29,9 @@ Google Fonts: Integration of 'Poppins' for typography.
 FontAwesome: Professional icons for navigation and social media.
 
 📸 Screenshots
+<img width="1500" height="1500" alt="Untitled design" src="https://github.com/user-attachments/assets/982c4ec9-a3bc-4fd4-b100-3ffdbfa0485c" />
 
-<img width="1920" height="537" alt="screencapture-127-0-0-1-5500-index-html-2026-03-18-17_14_57" src="https://github.com/user-attachments/assets/eb27f0ab-a19e-41fd-9f4e-4a4aa86efcb4" />
 
-<img width="1920" height="537" alt="screencapture-127-0-0-1-5500-index-html-2026-03-18-17_14_57" src="https://github.com/user-attachments/assets/0e608bcf-9973-473a-ac0e-57848252d522" />
-
-<img width="1920" height="525" alt="screencapture-127-0-0-1-5500-index-html-2026-03-18-17_20_02" src="https://github.com/user-attachments/assets/445dd3dc-0586-4b4b-8c62-c6aa445d0c63" />
 
 
 📁 Project Structure
