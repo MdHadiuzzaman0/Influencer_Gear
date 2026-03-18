@@ -23,7 +23,7 @@ You can check out the live site here ->
 
   ..💻 Desktop: > 992px (Full wide layout)
 
-**3. Interactive Elements**: Smooth hover effects on buttons and icons.
+**3. Interactive Elements**: Smooth **hover effects** on buttons, icons and items card.
 
 **4. Product Showcase:** A specialized grid section for popular collection items.
 
