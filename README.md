@@ -32,6 +32,7 @@ You can check out the live site here ->
 <br>
 <br>
 **🛠️ Technologies Used**
+
 **1. HTML5:** For structured and semantic web content.
 
 **2. CSS3:** Custom styles including Flexbox, CSS Grid, and Media Queries.
