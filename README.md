@@ -29,9 +29,8 @@ Google Fonts: Integration of 'Poppins' for typography.
 FontAwesome: Professional icons for navigation and social media.
 
 📸 Screenshots
-<img width="1341" height="122" alt="image" src="https://github.com/user-attachments/assets/551fba3d-9c9c-49ea-8f87-2303a2ef2360" />
-<img width="429" height="218" alt="image" src="https://github.com/user-attachments/assets/85f37f55-7ef2-4703-9ccc-2dab7fd55b75" />
 
+<img width="1920" height="4137" alt="screencapture-127-0-0-1-5500-index-html-2026-03-18-17_14_57" src="https://github.com/user-attachments/assets/eb27f0ab-a19e-41fd-9f4e-4a4aa86efcb4" />
 
 
 
