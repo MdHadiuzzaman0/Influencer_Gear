@@ -3,7 +3,7 @@ This is a clean, modern, and fully responsive landing page designed for Influenc
 
 🚀 Live Demo
 You can check out the live site here:
-🔗 Live Project Link (আপনার গিটহাব পেজ লিঙ্কটি এখানে দিন)
+🔗 Live Project Link: https://mdhadiuzzaman0.github.io/Influencer_Gear/
 
 ✨ Features
 Modern UI/UX: Built with a focus on clean design and the Google Poppins font for a professional look.
