@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  width: 100%;
+  /* /* border: 1px solid red;
+  max-width: 1440px;
+  margin: 0 auto; */
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    /* border: 1px solid red; */
+    margin: 87px auto 50px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.jrny{
+    max-width: 1188px;
+    /* border: 1px solid red; */
+    margin: 0 auto 69px;
+    display: flex;
+    align-items: center;
+}
+
+.jrny-info{
+    margin-right: 133px;
+}
+
+.jrny-info h1{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+.jrny-info p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.btn1{
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 41px;
+    background-color: #E02C6D;
+}
+
+.jrny-img{
+    background: url("./images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon{
+    max-width: 1270px;
+    margin: 0 auto 100px;
+    /* border: 1px solid; */
+    box-shadow: 0 0 1px 0;
+}
+
+.site-icon{
+    max-width: 987px;
+    padding: 36px 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+
+.icn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icn:hover{
+    box-shadow: 0 0 9px 0;
+}
+
+.optn{
+    /* border: 1px solid red; */
+    max-width: 1047px;
+    margin: 0 auto 100px;
+}
+
+.optn h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #373737;
+    line-height: 70px;
+}
+
+.box{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.bx-bx{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.bx-bx:hover{
+    background-color:aquamarine;
+}
+
+.optn-box h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 16px;
+    color: #18191F;
+}
+
+.optn-box h3{
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.optn-box p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #787885;
+}
+
+.star{
+    color: orange;
+    font-size: .6rem;
+}
+
+.str-nmbr{
+    font-size: .9rem;
+    font-weight: bold;
+    color: #5E6366;
+    margin-left: 5px;
+}
+
+.See{
+    color: #E02C6D;
+    text-align-last: right;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+.ftr{
+    max-width: 1110px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.ftr-info h1{
+    font-size: 2.375rem;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.ftr-info p{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+
+.btn2{
+    color: aliceblue;
+    padding: 10px 26px;
+    border: none;
+    background-color: #E02C6D;
+}
+
+footer{
+    text-align: center;
+    background-color: #0A0826;
+    color: aliceblue;
+}
+
+footer h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+footer p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.fotr-icn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.icn-bx{
+    border-radius: 50px;
+    margin: 20px 0 50px 0;
+}
+
+button:hover{
+    background: #6C6C6C;
+    transform: scale(1.10);
+}
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:768px){
+    .nav{
+        flex-direction: column;
+        margin: 35px 20px;
+        text-align: center;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .jrny{
+        margin-top: 22px;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .jrny-img{
+        max-width: 100%;
+        margin: 50px;
+    }
+
+    .jrny-info{
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .jrny-info h1, .ftr-info h1{
+        font-size: 1.75rem;
+    }
+
+    .jrny-info p, .ftr-info p{
+        font-size: 0.8rem;
+    }
+
+    .icon{
+        margin-bottom: 50px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .site-icon{
+        padding: 1px 60px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .optn{
+       margin-bottom: 30px; 
+    }
+
+    .box{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .bx-bx{
+        margin: 0 auto;
+    }
+
+    .See{
+        text-align-last: center;
+    }
+
+    .ftr{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .ftr-img{
+        margin-top: 30px;
+    }
+
+    footer{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 992px){
+    .nav{
+        flex-direction: row;
+        margin: 35px 20px;
+        text-align: center;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .jrny{
+        margin-top: 22px;
+        flex-direction: row;
+        margin-bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .jrny-info h1, p{
+        text-align: left;
+    }
+
+    .btn1{
+        display: flex;
+    }
+
+    .jrny-img{
+        max-width: 100%;
+        margin: 50px;
+    }
+
+    .jrny-info{
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .jrny-info h1, .ftr-info h1{
+        font-size: 1.75rem;
+    }
+
+    .jrny-info p, .ftr-info p{
+        font-size: 0.8rem;
+    }
+
+    .icon{
+        margin-bottom: 50px;
+        margin: 20px;
+        padding: 19px 110px;
+    }
+
+    .site-icon{
+        padding: 1px 60px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .optn{
+       margin-bottom: 30px; 
+       padding: 0 80px;
+    }
+
+    .box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .bx-bx{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .optn-box img{
+        width: 100%;
+    }
+
+    .See{
+        text-align-last: center;
+    }
+
+    .ftr{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .ftr-img{
+        margin-top: 30px;
+    }
+
+    footer{
+        margin-top: 80px;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
